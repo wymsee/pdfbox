@@ -226,6 +226,7 @@ public final class ExtractText
                 stripper.setShouldSeparateByBeads( separateBeads );
                 stripper.setStartPage( startPage );
                 stripper.setEndPage( endPage );
+                stripper.setPageEnd("\n\n----end page----\n\n");
 
                 startTime = startProcessing("Starting text extraction");
                 if (debug) 
